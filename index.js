@@ -25,7 +25,7 @@ function prependKitten(burger) {
 }
 
 function removeLastKitten() {
-  
+
 }
 
 
