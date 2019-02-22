@@ -5,7 +5,7 @@ function destructivelyAppendKitten(kitteh) {
 }
 
 function destructivelyPrependKitten(haz) {
-  kittens.unslice(haz)
+  kittens.unshift(haz)
 }
 
 function destructivelyRemoveLastKitten() {
@@ -13,7 +13,7 @@ function destructivelyRemoveLastKitten() {
 }
 
 function destructivelyRemoveFirstKitten() {
-  kittens.slice(1)  /* please stop! */
+  kittens.shift(1)  /* what if they don't want to? */
 }
 
 function appendKitten(cheez) {
